@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Space Exploration System</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="./main2.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+       <link rel="icon" type="image/png" href="assets/fevicon/shuttle.png">
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="../../Index.html" class="nav-link">
+                                <i class="nav-link-icon fa fa-home"> </i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="about.html" class="nav-link">
+                            
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+               <!-- <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <ul class="header-menu nav">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" class="nav-link">
+                                    <i class="nav-link-icon fa fa-unlock"> </i>
+                                    Login
+                                </a>
+                            </li>
+                            <li class="btn-group nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    <i class="nav-link-icon fa fa-info"></i>
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+               <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Which Planet would you like to<br> know about ?</li>
+                            <li>
+                                <a href="../Mercury/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                               Mercury
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../Venus/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                    Venus
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../Earth/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Earth 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../mars/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Mars
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="index.html" class="mm-active">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                 Jupiter
+                                </a>
+                            </li>  <li>
+                                <a href="../Saturn/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                 Saturn
+                                </a>
+                            </li>  <li>
+                                <a href="../Uranus/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Uranus
+                                </a>
+                            </li>  <li>
+                                <a href="../Neptune/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                Neptune
+                                </a>
+                            </li>  
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+
+
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div id="wrapper">
+                                    <div id="container">
+                                
+                                       <center> <h1>Jupiter</h1></center>
+                                      <center><img src="assets/images/Jupiter.jpg" height="300" width="500" ></center>  <br>
+                                        <h5><p>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined. Jupiter is one of the brightest objects visible to the naked eye in the night sky and has been known to ancient civilizations since before recorded history. It is named after the Roman god Jupiter. When viewed from Earth, Jupiter can be bright enough for its reflected light to cast visible shadows,and is on average the third-brightest natural object in the night sky after the Moon and Venus.
+                                            </p>
+
+<p>Jupiter is primarily composed of hydrogen with a quarter of its mass being helium, though only about a tenth of the number of molecules are helium. It may also have a rocky core of heavier elements,but like the other giant planets, Jupiter lacks a well-defined solid surface. Because of its rapid rotation, the planet's shape is that of an oblate spheroid (it has a slight but noticeable bulge around the equator). The outer atmosphere is visibly segregated into several bands at different latitudes, resulting in turbulence and storms along their interacting boundaries. A prominent result is the Great Red Spot, a giant storm that is known to have existed since at least the 17th century when it was first seen by telescope. Surrounding Jupiter is a faint planetary ring system and a powerful magnetosphere. Jupiter has almost a hundred known moons and possibly many more,including the four large Galilean moons discovered by Galileo Galilei in 1610. Ganymede, the largest of these, has a diameter greater than that of the planet Mercury.</p>
+<p>Pioneer 10 was the first spacecraft to visit Jupiter, making its closest approach to the planet in December 1973; Pioneer 10 identified plasma in Jupiter's magnetic field and also found that Jupiter's magnetic tail is nearly 800 million kilometres long, covering the entire distance to Saturn. Jupiter has been explored on a number of occasions by robotic spacecraft, beginning with the Pioneer and Voyager flyby missions from 1973 to 1979, and later by the Galileo orbiter, which arrived at Jupiter in 1995.In 2007 Jupiter was visited by the New Horizons probe, which used Jupiter's gravity to increase its speed and bend its trajectory en route to Pluto. The latest probe to visit the planet is Juno, which entered orbit around Jupiter in July 2016. Future targets for exploration in the Jupiter system include the probable ice-covered liquid ocean of its moon Europa.</p>
+<p> Astronomers have discovered 720 planetary systems with multiple planets. Regularly these systems include a few planets with masses several times greater than Earth's (super-Earths), orbiting closer to their star than Mercury is to the Sun, and sometimes also Jupiter-mass gas giants close to their star. Earth and its neighbor planets may have formed from fragments of planets after collisions with Jupiter destroyed those super-Earths near the Sun. As Jupiter came toward the inner Solar System, in what theorists call the grand tack hypothesis, gravitational tugs and pulls occurred causing a series of collisions between the super-Earths as their orbits began to overlap. Researchers from Lund University found that Jupiter's migration went on for around 700,000 years, in a period approximately 2–3 million years after the celestial body started its life as an ice asteroid far from the sun. The journey inwards in the solar system followed a spiralling course in which Jupiter continued to circle around the sun, albeit in an increasingly tight path due to gravitational forces from the surrounding gases in the solar system.Jupiter moving out of the inner Solar System would have allowed the formation of inner planets, including Earth. However, the formation timescales of terrestrial planets resulting from the grand tack hypothesis appear inconsistent with the measured terrestrial composition.</p>
+<p>Moreover, the likelihood that the grand tack actually occurred in the solar nebula is very low. In fact, some models predict the formation of Jupiter's analogues whose properties are close to those of the planet at the current epoch.</p>
+</h5>
+                                        
+                                           
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="col-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-card mb-3 card">
+                                        <div class="card-header">Ongoing Space Missions
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table
+                                                class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">#</th>
+                                                        <th>Name</th>
+                                                        <th class="text-center">Location</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center">Mission Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#1</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Pioneer 10</div>
+                                                                        <div class="widget-subheading opacity-7">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center"> NASA</td>
+                                                        <td class="text-center">
+                                                            <B>Successful</B>
+                                                        </td>
+                                                        <td class="text-center">
+ 							<A href="https://en.wikipedia.org/wiki/List_of_missions_to_the_outer_planets">Details </A>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#2</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Voyager 2</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <b>Successful</b>
+                                                        </td>
+                                                        <td class="text-center">
+                                                           <A href="https://en.wikipedia.org/wiki/List_of_missions_to_the_outer_planets">Details </A>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#3</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Galileon</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <B>Successful</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/List_of_missions_to_the_outer_planets">Details </A>
+                                                        </td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td class="text-center text-muted">#4</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Juno</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <B>Operational</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                             <A href="https://en.wikipedia.org/wiki/List_of_missions_to_the_outer_planets">Details </A>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                     <tr>
+                                                        <td class="text-center text-muted">#5</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">New Horizons</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <B>Successful</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                             <A href="https://en.wikipedia.org/wiki/List_of_missions_to_the_outer_planets">Details </A>
+                                                        </td>
+                                                    </tr>
+                                                                                                       
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>       <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                             
+
+                           
+
+                            <div class="col-xs-6 col-md-3">
+                                
+                                <ul class="footer-links">
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-12">
+                                <p class="copyright-text"> This project was created as a part of our Web Technology mini-project by Sohail, Piyush and Shobhit No copyrights here.<br>
+                    Will be making this project open source.So go and do whatever you want with it and have fun.
+                    <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <ul class="social-icons">
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Space Exploration System</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="./main2.css" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+       <link rel="icon" type="image/png" href="assets/fevicon/shuttle.png">
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="../../Index.html" class="nav-link">
+                                <i class="nav-link-icon fa fa-home"> </i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="about.html" class="nav-link">
+                              
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+               <!-- <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <ul class="header-menu nav">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" class="nav-link">
+                                    <i class="nav-link-icon fa fa-unlock"> </i>
+                                    Login
+                                </a>
+                            </li>
+                            <li class="btn-group nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    <i class="nav-link-icon fa fa-info"></i>
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+               <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Which Planet would you like to<br> know about ?</li>
+                            <li>
+                                <a href="../Mercury/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Mercury
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../Venus/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                    Venus
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../Earth/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Earth 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../mars/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Mars
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="../jupitar/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                 Jupiter
+                                </a>
+                            </li>  <li>
+                                <a href="../Saturn/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                 Saturn
+                                </a>
+                            </li>  <li>
+                                <a href="../Uranus/index.html" class="">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                  Uranus
+                                </a>
+                            </li>  <li>
+                                <a href="index.html" class="mm-active">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                Neptune
+                                </a>
+                            </li>  
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+
+
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div id="wrapper">
+                                    <div id="container">
+                                
+                                       <center> <h1>Neptune</h1></center>
+                                      <center><img src="assets/images/neptune.jpg" height="300" width="500" ></center>  <br>
+                                        <h5><p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi). It is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident.</p>
+                                        <p>Neptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to deduce that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier. Neptune was subsequently observed with a telescope on 23 September 1846 by Johann Galle within a degree of the position predicted by Le Verrier. Its largest moon, Triton, was discovered shortly thereafter, though none of the planet's remaining 13 known moons were located telescopically until the 20th century. The planet's distance from Earth gives it a very small apparent size, making it challenging to study with Earth-based telescopes.</p>
+                                        <P>Some of the earliest recorded observations ever made through a telescope, Galileo's drawings on 28 December 1612 and 27 January 1613 contain plotted points that match up with what is now known to be the position of Neptune. On both occasions, Galileo seems to have mistaken Neptune for a fixed star when it appeared close—in conjunction—to Jupiter in the night sky.Hence, he is not credited with Neptune's discovery. At his first observation in December 1612, Neptune was almost stationary in the sky because it had just turned retrograde that day. This apparent backward motion is created when Earth's orbit takes it past an outer planet. Because Neptune was only beginning its yearly retrograde cycle, the motion of the planet was far too slight to be detected with Galileo's small telescope. In 2009, a study suggested that Galileo was at least aware that the "star" he had observed had moved relative to the fixed stars. </P>
+                                    <p>Neptune's orbit has a profound impact on the region directly beyond it, known as the Kuiper belt. The Kuiper belt is a ring of small icy worlds, similar to the asteroid belt but far larger, extending from Neptune's orbit at 30 AU out to about 55 AU from the Sun.Much in the same way that Jupiter's gravity dominates the asteroid belt, shaping its structure, so Neptune's gravity dominates the Kuiper belt. Over the age of the Solar System, certain regions of the Kuiper belt became destabilised by Neptune's gravity, creating gaps in the Kuiper belt's structure. The region between 40 and 42 AU is an example.
+
+                                        There do exist orbits within these empty regions where objects can survive for the age of the Solar System. These resonances occur when Neptune's orbital period is a precise fraction of that of the object, such as 1:2, or 3:4. If, say, an object orbits the Sun once for every two Neptune orbits, it will only complete half an orbit by the time Neptune returns to its original position. The most heavily populated resonance in the Kuiper belt, with over 200 known objects, is the 2:3 resonance. Objects in this resonance complete 2 orbits for every 3 of Neptune, and are known as plutinos because the largest of the known Kuiper belt objects, Pluto, is among them. Although Pluto crosses Neptune's orbit regularly, the 2:3 resonance ensures they can never collide.The 3:4, 3:5, 4:7 and 2:5 resonances are less populated.</p></h5>
+
+
+                                        
+                                           
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="col-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="main-card mb-3 card">
+                                        <div class="card-header">Ongoing Space Missions
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table
+                                                class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">#</th>
+                                                        <th>Name</th>
+                                                        <th class="text-center">Location</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center">Mission Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#1</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Voyager Neptune Interstellar Mission</div>
+                                                                        <div class="widget-subheading opacity-7">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <B> ONGOING</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#2</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Voyager 2</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center">NASA/JPL</td>
+                                                        <td class="text-center">
+                                                            <b> ONGOING</b>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center text-muted">#3</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">OSS mission</div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">ESA</td>
+                                                        <td class="text-center">
+                                                            <B>IN PROGRESS</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td class="text-center text-muted">#4</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Trident </div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">NASA</td>
+                                                        <td class="text-center">
+                                                            <B>IN PROGRESS</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    
+                                                     <tr>
+                                                        <td class="text-center text-muted">#4</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">Triton Hopper </div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">United Kingdom</td>
+                                                        <td class="text-center">
+                                                            <B>RETIRED</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                     <tr>
+                                                        <td class="text-center text-muted">#4</td>
+                                                        <td>
+                                                            <div class="widget-content p-0">
+                                                                <div class="widget-content-wrapper">
+                                                                    <div class="widget-content-left mr-3">
+                                                                        <div class="widget-content-left">
+                                                                            <img width="50" class="square"
+                                                                                src="assets/images/shuttle.png"
+                                                                                alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-content-left flex2">
+                                                                        <div class="widget-heading">INTERPLANETARY FLYBY PROBE </div>
+                                                                        <div class="widget-subheading opacity-7"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                      <br>  <td class="text-center">Cnsa</td>
+                                                        <td class="text-center">
+                                                            <B>IN PROGRESS</B>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <A href="https://en.wikipedia.org/wiki/Exploration_of_Neptune">Details</A>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                  
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>       <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                             
+
+                           
+
+                            <div class="col-xs-6 col-md-3">
+                                
+                                <ul class="footer-links">
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-12">
+                                <p class="copyright-text"> This project was created as a part of our Web Technology mini-project by Sohail, Piyush and Shobhit No copyrights here.<br>
+                    Will be making this project open source.So go and do whatever you want with it and have fun.
+                    <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <ul class="social-icons">
+                                 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
